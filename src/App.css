@@ -1,0 +1,25 @@
+*{
+  /* color: #460b38; */
+  font-family: var(--font-family);
+}
+body{
+    scroll-behavior: smooth;
+    position: relative;
+}
+@media screen and (min-width: 767px){
+
+}
+@media screen and (min-width: 540px){
+  .nav-menu{
+    font-size: 1.1rem;
+    position: unset;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    background: transparent;
+    width: 70%;
+  }
+    
+}

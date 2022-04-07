@@ -1,0 +1,9 @@
+.footer {
+    background: linear-gradient(
+        0deg, rgb(139 49 95) 5%, rgb(255, 255, 255) 66%);
+    height: 100vh;
+}
+.arrow-up{
+    height: 80px;
+    float: right;
+}
