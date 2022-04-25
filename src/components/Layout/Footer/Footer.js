@@ -2,7 +2,6 @@ import './Footer.css';
 
 const Footer = () => {
  return(
-
       
         <div className="footer" dest="contact">
         <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
@@ -21,7 +20,7 @@ const Footer = () => {
         <div className="arrow-up"> <a href="#top"> <img src="/img/svg/caret-circle-up.svg" alt="arrow"/> </a></div>
         
                <div className='footer-text'>
-                   <p>Copyright @ Varsha Panchal 2022</p>
+                   <p>Copyright &copy; Varsha Panchal  2♥22</p>
                 </div> 
        
         </div>

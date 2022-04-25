@@ -2,8 +2,8 @@
    
     width: 100%;
     background: linear-gradient(
-        0deg, rgb(139 49 95) 5%, rgb(255, 255, 255) 66%);
-    height: 100vh;
+        0deg, rgb(139 49 95) 0%, rgb(255, 255, 255) 50%);
+    /* height: 100vh; */
 }
 .arrow-up{
     height: 80px;

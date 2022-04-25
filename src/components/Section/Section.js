@@ -11,8 +11,7 @@ const Section = () => {
               </div>           
                 <About />
                 <Skills />
-                <Projects 
-                    
+                <Projects                     
                 
                 />
                 <Contact />
