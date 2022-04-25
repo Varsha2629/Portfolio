@@ -1,4 +1,6 @@
 .footer {
+   
+    width: 100%;
     background: linear-gradient(
         0deg, rgb(139 49 95) 5%, rgb(255, 255, 255) 66%);
     height: 100vh;
@@ -6,4 +8,13 @@
 .arrow-up{
     height: 80px;
     float: right;
+    
+}
+.arrow-up :hover{
+    filter: drop-shadow(12px 5px 22px #5bcb8b);
+}
+.footer-text {
+    color: #460b38;
+    text-align: center;
+    
 }
