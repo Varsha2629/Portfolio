@@ -5,9 +5,8 @@ const Footer = () => {
       
         <div className="footer">       
                <div className='footer-text'>
-                   <p>&copy; Varsha Panchal 2♥22 All right reserved.</p>
-                </div> 
-       
+                   <p>&copy; 2♥22 Varsha Panchal. All right reserved.</p>
+                </div>        
         </div>
         
         

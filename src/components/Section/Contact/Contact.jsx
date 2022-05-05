@@ -1,13 +1,13 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {FiInstagram} from 'react-icons/fi';
-import {BsGithub} from 'react-icons/bs';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {FiInstagram} from 'react-icons/fi';
+// import {BsGithub} from 'react-icons/bs';
 
 const Contact = () => {
     return(
         <div id="contect">
             <h1>CONTACT</h1>   
-            <div className="footer" dest="contact">
+            <div className="contact">
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
             <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="#460b38"></path>
             </svg> 
@@ -23,9 +23,9 @@ const Contact = () => {
              </div> */}
 
              <div className="footer__socials">
-                <a href='https://www.linkedin.com/in/varshapanchal/'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a>
-                <a href='https://www.instagram.com/wiskeypanchal/'><FiInstagram className='footer__socials-icon'/></a>
-                <a href='https://github.com/Varsha2629'><BsGithub className='footer__socials-icon'/></a>
+                {/* <a href='https://www.linkedin.com/in/varshapanchal/'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a> */}
+                {/* <a href='https://www.instagram.com/wiskeypanchal/'><FiInstagram className='footer__socials-icon'/></a>
+                <a href='https://github.com/Varsha2629'><BsGithub className='footer__socials-icon'/></a> */}
              </div>
             
       
