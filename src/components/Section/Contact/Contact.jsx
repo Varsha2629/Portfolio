@@ -1,7 +1,7 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {FiInstagram} from 'react-icons/fi';
-// import {BsGithub} from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
+import {FiInstagram} from 'react-icons/fi';
+import {BsGithub} from 'react-icons/bs';
 
 const Contact = () => {
     return(
@@ -23,13 +23,13 @@ const Contact = () => {
              </div> */}
 
              <div className="footer__socials">
-                {/* <a href='https://www.linkedin.com/in/varshapanchal/'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a> */}
-                {/* <a href='https://www.instagram.com/wiskeypanchal/'><FiInstagram className='footer__socials-icon'/></a>
-                <a href='https://github.com/Varsha2629'><BsGithub className='footer__socials-icon'/></a> */}
+                <a href='https://www.linkedin.com/in/varshapanchal/'><FaLinkedinIn icon="fa-brands fa-linkedin-in" /></a>
+                <a href='https://www.instagram.com/wiskeypanchal/'><FiInstagram className='footer__socials-icon'/></a> 
+                <a href='https://github.com/Varsha2629'><BsGithub className='footer__socials-icon'/></a>
              </div>
             
       
-        </div>
+        </div>FaLinkedinIn
     </div>
     )
 }
