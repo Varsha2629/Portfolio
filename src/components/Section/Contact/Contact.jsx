@@ -29,7 +29,7 @@ const Contact = () => {
              </div>
             
       
-        </div>FaLinkedinIn
+        </div>
     </div>
     )
 }
