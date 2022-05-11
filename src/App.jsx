@@ -11,13 +11,19 @@ function App() {
     const [projects, setProjects] = useState([
       {
         id:1,
+        img: 'img\Tiny-login-user.png',
         title: 'TinnyApp'
+
       },
-      { id:1,
-        title: 'Yelpcamp'
+      { 
+        id:2,
+        img: 'img\Scheduler-home-page.png',
+        title: 'InterviewScheduler', 
       },
-      { id:1,
-        title: 'Yelpcamp'
+      { 
+        id:3,
+        img: 'img\tweeter-desktop-view.png',
+        title: 'TweeterApp'
       },
     ])
   return ( 
