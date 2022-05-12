@@ -1,12 +1,18 @@
+import React from "react";
+import Project from "./Project";
+
 const Projects = ({projects}) => {
     return (
         <>
-            {projects.map((ele) => {
-                <h3 key={ele.id}>{ele.title}</h3>
-            })}       
+        <h1>PROJECTS</h1>
+        {projects.map((project) => (
+         <div className="projects">          
+            <Project key={project.id} project={project} />
+        </div>
+        ))}
+          
         </>
-      )
-  
+      ) 
   
 }
 export default Projects;
