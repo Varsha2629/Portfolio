@@ -4,6 +4,8 @@
 body{
     scroll-behavior: smooth;
     position: relative;
+    background-color: #f0afca;
+
 }
 /* @media screen and (min-width: 767px){
 

@@ -13,7 +13,7 @@ const Header = () => {
           <a href='#about' className="about">About</a>
           <a href='#skills' className="skill">Skills</a>
           <a href='#projects' className="project">Projects</a>
-          <a href='#contect' className="contect">Contact</a>
+          <a href='#contact' className="contact">Contact</a>
          </div>     
         
       </nav>

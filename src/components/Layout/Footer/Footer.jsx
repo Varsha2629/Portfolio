@@ -5,7 +5,7 @@ const Footer = () => {
       
         <div className="footer">       
                <div className='footer-text'>
-                   <p>&copy; 2♥22 Varsha Panchal. All right reserved.</p>
+                   <p>&copy; Copyright Varsha Panchal 2♥22. All right reserved.</p>
                 </div>        
         </div>
         

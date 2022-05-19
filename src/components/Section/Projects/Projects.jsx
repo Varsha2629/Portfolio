@@ -3,15 +3,15 @@ import Project from "./Project";
 
 const Projects = ({projects}) => {
     return (
-        <>
+        <div id="projects">
         <h1>PROJECTS</h1>
         {projects.map((project) => (
-         <div className="projects">          
+         <div>          
             <Project key={project.id} project={project} />
         </div>
         ))}
           
-        </>
+        </div>
       ) 
   
 }

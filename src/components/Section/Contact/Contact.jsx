@@ -5,13 +5,13 @@ import {BsGithub} from 'react-icons/bs';
 
 const Contact = () => {
     return(
-        <div id="contect">
+        <div id="contact">
             <h1>CONTACT</h1>   
-            <div className="contact">
+            <div className="contact-details">
             <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
             <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="#460b38"></path>
             </svg> 
-            <h1>|| Let's work together ||</h1>
+            <h1>Let's work together</h1>
             <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
            <p>varsha3051@gmail.com</p>
 
