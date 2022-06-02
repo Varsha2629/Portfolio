@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from './components/Layout/Header/Header';
+import Home from './components/Layout/Header/Home';
 import About from './components/Section/About/About';
 import Skills from './components/Section/Skills/Skills';
 import Projects from './components/Section/Projects/Projects';
@@ -28,7 +28,7 @@ function App() {
     ])
   return ( 
     <div className="App">    
-          <Header />
+          <Home />
           <About /> 
           <Skills />
           <Projects projects={projects} />

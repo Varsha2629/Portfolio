@@ -48,11 +48,11 @@ const Skills = () => {
         <h1> Certifications </h1>
         <div className="certified">
           <p>Diploma Full Stack Web Development : </p>
-          <a href="#"></a>
+          {/* <a href=""></a> */}
           <p>Udemy Full Stack Web Development : </p>
-          <a href="#"></a>
+          {/* <a href="#a"></a> */}
           <p>Udemy Full Stack Web Development : </p>
-          <a></a>
+          {/* <a></a> */}
         </div>
       </div>
     </div>
