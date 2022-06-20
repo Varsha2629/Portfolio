@@ -1,10 +1,9 @@
 import React from "react";
-import './Nav.css';
+import './Nav.scss';
 
 const Nav = () => {
  return (
     <div className="main"> 
-
       <nav className="navbar">
         <div className='leftSide'>
           <h3><a href="http://localhost:3000/" className="logo"><img src="/img/logo192.jpg" alt="logo" /></a></h3>
