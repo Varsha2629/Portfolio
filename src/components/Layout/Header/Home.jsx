@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';
+import './Home.scss';
 import Nav from "./Nav";
  
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
       <h2>Full-stack web developer.</h2>
       <p>Web Developer / Javascript Expert </p>
       <p>I love building products that are aesthetically pleasing using clean code.</p>
-      <button>Let's Talk</button>   
+      <button>Let's Connect</button>   
 
     </div>
      

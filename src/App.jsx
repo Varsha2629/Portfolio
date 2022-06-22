@@ -14,9 +14,9 @@ function App() {
     <div className="App">    
           <Home />
           <About /> 
-          <Skills />
-          <Projects dataBase={dataBase} />
-          <Contact />   
+          <Skills /> 
+           <Projects dataBase={dataBase} />
+           <Contact />  
           <Footer /> 
     </div>
   );
