@@ -8,13 +8,21 @@ const Home = () => {
    <Nav />
     <div className="home-page"> 
     <div className="text-zone">
-      <h1>Hi,<br /> I'm</h1>
-      <img src='./img/V.png' alt="developer" />
-      <span>arsha,</span>
-      <h2>Full-stack web developer.</h2>
-      <p>Web Developer / Javascript Expert </p>
-      <p>I love building products that are aesthetically pleasing using clean code.</p>
-      <button>Let's Connect</button>   
+      <h2>Hello, my name is</h2>
+      {/* <img src='./img/V.png' alt="developer" /> */}
+      <h1>Varsha Panchal</h1>
+      <div className="title">
+        <div className="title-wrapper">
+          <div className="title-item">Full-stack Developer</div>
+          <div className="title-item">Web Developer</div>
+          <div className="title-item">Creative</div>
+          <div className="title-item">Software Developer</div>
+          <div className="title-item">Javascript Expert</div>
+        </div>
+      
+      </div>
+      <p>I'm passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I'm glad you're here!</p>
+      <a className="connect" href="#contact" >Let's Connect</a>   
 
     </div>
      
