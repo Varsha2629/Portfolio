@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="main"> 
       <nav className="navbar">
         <div className='rightSide'>
-          <h3><a href="http://localhost:3000/" className="logo"><img src="/img/logo192.jpg" alt="logo" /></a></h3>
+          <a href="http://localhost:3000/" className="logo"><img src="/img/logo192.jpg" alt="logo" /></a>
         </div>
         <div className='leftSide'>
         <a href='#home' className="text active">Home</a>
