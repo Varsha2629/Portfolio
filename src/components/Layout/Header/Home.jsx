@@ -21,8 +21,8 @@ const Home = () => {
         </div>
       
       </div>
-      <p>I'm passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I'm glad you're here!</p>
-      <a className="connect" href="#contact" >Let's Connect</a>   
+      {/* <p>I'm passionate about building beautiful interfaces and accessible applications. Welcome to my personal slice of the internet. I'm glad you're here!</p> */}
+      <div className="connect"><a href="#contact">Let's Connect</a></div>
 
     </div>
      

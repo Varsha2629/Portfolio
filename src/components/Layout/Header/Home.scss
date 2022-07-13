@@ -5,7 +5,7 @@
     .text-zone {
         font-weight: bold;
         justify-content: space-evenly;
-        width: 50%;
+        width: 40%;
         padding: 20px;
         color: white;
         background-color: rgba(0, 0, 0, 0.45);
@@ -13,18 +13,18 @@
         z-index: 2;
         margin-left: 23%;
         border-radius: 25px;
+        .connect {
+            width: 10%;
+            padding: 7px;
+            background-image: linear-gradient(120deg, #d0488e 40%, #ffbe9c);
+            text-decoration: none;
+            color: white;
+            border-radius: 7px;
+            font-weight: bold;
+            cursor: pointer;
+        }
     }
 
-    .connect {
-        width: 10%;
-        padding: 7px;
-        background-image: linear-gradient(120deg, #d0488e 40%, #ffbe9c);
-        text-decoration: none;
-        color: white;
-        border-radius: 7px;
-        font-weight: bold;
-        cursor: pointer;
-    }
 
     .title {
         height: 45px;
@@ -35,6 +35,7 @@
         height: 100%;
         align-content: space-between;
         animation: move 5s ease-in-out infinite alternate;
+        margin-bottom: 20px;
     }
 
     @keyframes move {
