@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="arrow-up">
           {" "}
           <a href="#top">
-            {" "}
+          
             <img src="/img/svg/caret-circle-up.svg" alt="arrow" />
           </a>
         </div>

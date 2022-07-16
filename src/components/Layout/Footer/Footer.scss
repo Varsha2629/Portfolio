@@ -1,18 +1,15 @@
 .footer {
-    background: linear-gradient(
-        0deg, rgb(139 49 95) 0%, rgb(255, 255, 255) 50%);
+   background: linear-gradient(1deg, rgb(139, 30, 95) 0%, rgb(255, 255, 255) 50px);
+    // background: linear-gradient(
+    //     0deg, rgb(139 49 95) 0%, rgb(255, 255, 255) 50%);
     // height: 20vh;
 
-    .footer-text {
-        color: #460b38;
-        text-align: center;
-        
-    }
-    .arrow-up {
-        float: right;
-    }
-    .arrow-up img {
-        height: 40px;
+    .arrow-up img {        
+        height: 70px;
+        position: fixed;
+        bottom: 35px;
+        right: 35px;
+        cursor: pointer;
     }
 }
 
