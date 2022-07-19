@@ -6,7 +6,7 @@ const Footer = () => {
     const [isVisable, setIsVisible] = useState(false)
     
     const toggleVisibility = () => {
-      if(window.pageYOffset > 50) {
+      if(window.pageXOffset > 50) {
         setIsVisible(true)
       } else {
         setIsVisible(false);
