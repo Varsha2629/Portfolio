@@ -1,23 +1,13 @@
 .footer {
-   background: linear-gradient(1deg, rgb(139, 30, 95) 0%, rgb(255, 255, 255) 50px);
-    // background: linear-gradient(
-    //     0deg, rgb(139 49 95) 0%, rgb(255, 255, 255) 50%);
-    // height: 20vh;
-
+    padding: 15px;
+   background: linear-gradient(0deg, rgb(140, 30, 95) 0%, rgb(255, 255, 255) 95%);
+ 
     .arrow-up img {        
         height: 70px;
         position: fixed;
         bottom: 35px;
         right: 35px;
         cursor: pointer;
+        
     }
 }
-
-/* .arrow-up{
-    height: 80px;
-    float: right;
-    
-}
-.arrow-up :hover{
-    filter: drop-shadow(12px 5px 22px #5bcb8b);
-} */

@@ -2,7 +2,7 @@ import React from "react";
 import { FaLinkedinIn } from 'react-icons/fa';
 import {FiInstagram} from 'react-icons/fi';
 import {BsGithub} from 'react-icons/bs';
-// import Contact from './Contact'
+import './Contact.scss';
 
 const Contact = () => {
     return(
