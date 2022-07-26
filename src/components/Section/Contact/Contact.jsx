@@ -61,15 +61,24 @@ const Contact = () => {
         </div>
         <div className="footer__socials">
           <h3>Let's be Friends</h3>
-          <a href="https://www.linkedin.com/in/varshapanchal/">
-            <FaLinkedinIn icon="fa-brands fa-linkedin-in" />
-          </a>
-          <a href="https://www.instagram.com/wiskeypanchal/">
-            <FiInstagram className="footer__socials-icon" />
-          </a>
-          <a href="https://github.com/Varsha2629">
-            <BsGithub className="footer__socials-icon" />
-          </a>
+         <div className="social_icons">
+          <div className="icon">
+              <a href="https://www.linkedin.com/in/varshapanchal/" target="_blank">
+                <FaLinkedinIn icon="fa-brands fa-linkedin-in" />
+              </a>
+            </div>
+            <div className="icon">
+              <a href="https://www.instagram.com/wiskeypanchal/" target="_blank">
+                <FiInstagram className="footer__socials-icon" />
+              </a>
+            </div> 
+            <div className="icon">
+              <a href="https://github.com/Varsha2629">
+                <BsGithub className="footer__socials-icon" target="_blank" />
+              </a>
+            </div>  
+         </div> 
+         
         </div>
       </div>
     </div>

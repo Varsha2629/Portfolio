@@ -1,8 +1,34 @@
 .connection {
   display: flex;
-    text-align: center;
-    justify-content: space-around;
+  text-align: center;
+  justify-content: space-around;
 }
+
 .footer__socials {
-   text-align: center;
+  text-align: center; 
+  margin: 25px 25px;
+}
+.social_icons {
+  display: flex;
+  justify-content: center;
+  margin: inherit;
+}
+.social_icons .icon {
+  display: inline-block;
+  background: #FFFFFF;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 45px;
+  width: 45px;
+  margin: 0 10px;
+  box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+  transition: all 0.3s ease-out;
+}
+.social_icons .icon:nth-child(1):hover .icon{
+ background: #0A66C2;
+}
+.icon a{
+  font-size: 18px;
+  line-height: 50px;
+  color: #AF2574;
 }
