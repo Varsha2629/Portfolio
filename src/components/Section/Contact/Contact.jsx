@@ -7,8 +7,7 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div id="contact">
-      <h1>CONTACT</h1>
-      <p>Feel free to send me a message - I'm always happy to connect!</p>
+     
       <div className="contact-details">
         <svg
           preserveAspectRatio="none"
@@ -21,6 +20,11 @@ const Contact = () => {
         >
           <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="#460b38"></path>
         </svg>
+        <div>
+          <h1>CONTACT</h1>
+          <p>Feel free to send me a message - I'm always happy to connect!</p>
+        </div>
+        
         <div className="connection">
           <div className="email">
             <svg
@@ -63,18 +67,18 @@ const Contact = () => {
           <h3>Let's be Friends</h3>
          <div className="social_icons">
           <div className="icon">
-              <a href="https://www.linkedin.com/in/varshapanchal/" target="_blank">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/varshapanchal/">
                 <FaLinkedinIn icon="fa-brands fa-linkedin-in" />
               </a>
             </div>
             <div className="icon">
-              <a href="https://www.instagram.com/wiskeypanchal/" target="_blank">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/wiskeypanchal/">
                 <FiInstagram className="footer__socials-icon" />
               </a>
             </div> 
             <div className="icon">
-              <a href="https://github.com/Varsha2629">
-                <BsGithub className="footer__socials-icon" target="_blank" />
+              <a target="_blank" rel="noreferrer" href="https://github.com/Varsha2629">
+                <BsGithub className="footer__socials-icon" />
               </a>
             </div>  
          </div> 
