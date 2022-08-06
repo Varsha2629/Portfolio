@@ -4,7 +4,7 @@ import './Skills.scss'
 const Skills = () => {
   return (
     <div id="skills">
-      <h1>SKILLS</h1>
+      <h1>~ SKILLS ~</h1>
       <div className="card">
         <title>Front-End</title>
         <ul>
@@ -46,7 +46,7 @@ const Skills = () => {
     </div>
 
       <div className="certifications">
-        <h1> Certifications </h1>
+        <h1>~ Certifications ~</h1>
         <div className="certified">
           <p>Diploma Full Stack Web Development : </p>
           {/* <a href=""></a> */}
