@@ -15,8 +15,8 @@ function App() {
           <Home />
           <About /> 
           <Skills /> 
-           <Projects dataBase={dataBase} />
-           <Contact />  
+          <Projects dataBase={dataBase} />
+          <Contact />  
           <Footer /> 
     </div>
   );
