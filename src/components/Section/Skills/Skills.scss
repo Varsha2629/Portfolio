@@ -1,6 +1,13 @@
 .card{
-    text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 2% 10%;
 }
 .certifications {
-  text-align: center;
+ 
+  .certified {
+    display: flex;
+    justify-content: center;
+  }
 }
