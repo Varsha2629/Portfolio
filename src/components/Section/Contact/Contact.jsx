@@ -21,7 +21,7 @@ const Contact = () => {
           <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="#460b38"></path>
         </svg>
         <div>
-          <h1>~ CONTACT ~</h1>
+          <h1>CONTACT</h1>
           <p>Feel free to send me a message - I'm always happy to connect!</p>
         </div>
         
