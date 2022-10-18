@@ -7,3 +7,49 @@ p {
   text-align: center;
 
 }
+.projectsViewAll {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 32px;
+
+ a {
+  text-decoration: none;
+ }
+ .js15 {
+  outline: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: inherit;
+    border-radius: 45px;
+    font-size: 1.05rem;
+    font-family: var(--primaryFont);
+    font-weight: 500;
+    padding-left: 1.5rem;
+    cursor: pointer;
+    color: #eaeaea;
+    transition: color 0.2s;
+    background-color: #AF2574;
+
+  }  
+  .js16 {
+    color: #eaeaea;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    padding: 8px;
+    transition: background-color 0.2s;
+    border-radius: 50%;
+    background-color: #212121b3;
+  }
+}
+.subProject {
+  display: flex;
+  margin: 20px 107px 0px 95px;
+}
