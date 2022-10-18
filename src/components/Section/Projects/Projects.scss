@@ -19,7 +19,7 @@ p {
   text-decoration: none;
  }
  .js15 {
-  outline: none;
+   
     border: none;
     width: 140px;
     height: 45px;
@@ -28,7 +28,7 @@ p {
     justify-content: space-between;
     text-transform: inherit;
     border-radius: 45px;
-    font-size: 1.05rem;
+    font-size: 18px;
     font-family: var(--primaryFont);
     font-weight: 500;
     padding-left: 1.5rem;
@@ -40,13 +40,14 @@ p {
   }  
   .js16 {
     color: #eaeaea;
-    width: 40px;
+    width: 35px;
     cursor: pointer;
-    height: 40px;
+    height: 35px;
     padding: 8px;
+    margin-right: 5px;
     transition: background-color 0.2s;
     border-radius: 50%;
-    background-color: #212121b3;
+    background-color: #118ba9;
   }
 }
 .subProject {
