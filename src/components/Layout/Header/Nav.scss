@@ -3,15 +3,16 @@
   
   .navbar {
     display: flex;
-    background: hsla(0, 0%, 100%, .5);
-    
+    background: hsla(0, 0%, 100%, .5);    
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    background-color: rgba(193, 54, 134, 0.6);
    
     
     .rightSide {
-      padding-left: 5%;
+      margin-left: 10%;
+      margin-top: 4px;
     }
 
     .logo img {

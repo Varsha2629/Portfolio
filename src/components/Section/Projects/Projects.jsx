@@ -5,7 +5,7 @@ import './Projects.scss'
 const Projects = ({dataBase}) => {
     return (
         <div id="projects">
-            <h1>PROJECTS</h1>
+            <h1>Projects</h1>
             <p>Collection of some of my work</p>
             <div className="subProject">
                 {dataBase.projects.map((project) => (

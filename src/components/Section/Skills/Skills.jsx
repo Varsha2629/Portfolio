@@ -4,7 +4,7 @@ import './Skills.scss'
 const Skills = () => {
   return (
     <div id="skills">
-      <h1>SKILLS</h1>
+      <h1>Skills</h1>
       <div className="card">
                      
          <img src="img/svg/JavaScript.svg" alt="javascript" />
