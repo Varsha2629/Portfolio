@@ -85,8 +85,8 @@ const Contact = () => {
          
         </div>
       </div>
+        <img src="img/svg/contactsImg.svg" alt="contact" />
 
-        <img src="" alt="contact" />
     </div>
   );
 };
