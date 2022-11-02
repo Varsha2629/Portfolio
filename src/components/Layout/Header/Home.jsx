@@ -9,7 +9,7 @@ const Home = () => {
     <div className="home-page"> 
     <div className="text-zone">
       <h2>Hello, my name is</h2>
-      {/* <img src='./img/V.png' alt="developer" /> */}
+      
       <h1>Varsha Panchal</h1>
       <div className="title">
         <div className="title-wrapper">
