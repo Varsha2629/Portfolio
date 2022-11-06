@@ -7,8 +7,8 @@ const Home = () => {
    <div id="home">
    <Nav />
     <div className="home-page"> 
-      <div clasName="coverImage">
-        <img className="Into-img" src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&q=80" alt="home-image" />
+      <div className="coverImage">
+        <img className="Into-img" src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1380&h=500&q=80" alt="home-image" />
         
       </div>    
       <div className="text-zone">
