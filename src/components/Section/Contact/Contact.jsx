@@ -29,7 +29,7 @@ const Contact = () => {
           <div className="email">
             <svg
               stroke="#AF2574"
-              fill="#FFFFFF"
+              fill="#E0C0D1"
               stroke-width="0"
               viewBox="0 0 24 24"
               height="3em"
