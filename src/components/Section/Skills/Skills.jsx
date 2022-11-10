@@ -6,21 +6,31 @@ const Skills = () => {
     <div id="skills">
       <h1>Skills</h1>
       <div className="card">
-                     
-         <img src="img/svg/JavaScript.svg" alt="javascript" />
-          
+
+        <div className="skill-img">
+          <img src="img/svg/JavaScript.svg" alt="javascript" />
+          <p>JavaScript</p>
+        </div>            
+        <div className="skill-img">  
           <img src="img/svg/React.svg" alt="react" />
-          
+          <p>React</p>
+        </div>
+        <div className="skill-img">  
           <img src="img/svg/HTML5.svg" alt="html" />
-                  
+          <p>HTML5</p>
+        </div>
+        <div className="skill-img"> 
           <img src="img/svg/CSS3.svg" alt="css" />
-          
-          <img src="img/svg/Github.svg" alt="html" />
-          
-          <img src="img/svg/NodeExpress.svg" alt="html" />
-       
-                       
-                 
+          <p>CSS3</p>
+        </div>
+        <div className="skill-img"> 
+          <img src="img/svg/Github.svg" alt="github" />
+          <p>GitHub</p>
+        </div>
+        <div className="skill-img"> 
+          <img src="img/svg/NodeExpress.svg" alt="node" />
+          <p>NodeJs</p>
+        </div>
       
     </div>
 

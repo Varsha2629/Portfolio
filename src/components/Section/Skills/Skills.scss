@@ -6,9 +6,12 @@
   img {
     width: 80px;
     box-shadow: 0 0 15px 0px #af2574;
-  
+    
   }
-  img :hover {
+  p{
+    display: none;
+  }
+  img:hover {
     display: inline;
   }
 }
