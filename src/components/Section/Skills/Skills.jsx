@@ -18,17 +18,7 @@ const Skills = () => {
           <img src="img/svg/Github.svg" alt="html" />
           
           <img src="img/svg/NodeExpress.svg" alt="html" />
-          <img src="img/svg/CSS3.svg" alt="css" />
-          
-          <img src="img/svg/Github.svg" alt="html" />
-          
-          <img src="img/svg/NodeExpress.svg" alt="html" />
-                 
-          <img src="img/svg/CSS3.svg" alt="css" />
-          
-          <img src="img/svg/Github.svg" alt="html" />
-          
-          <img src="img/svg/NodeExpress.svg" alt="html" />
+       
                        
                  
       
