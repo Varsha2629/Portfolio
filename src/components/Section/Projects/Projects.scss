@@ -6,9 +6,20 @@ p{
 }
 
 .project-card {
-//  display: flex;
-  text-align: center;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid #AF2575;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 4px 5px 3px #af2574;
+  margin-left: 41px;
+  padding: 20px;
 
+}
+.project-card:hover{
+  transform: scale(1.04);
 }
 .projectsViewAll {
   width: 100%;

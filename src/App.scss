@@ -1,6 +1,12 @@
-/* ::-webkit-scrollbar {
-  display: none;
-} */
+::-webkit-scrollbar{
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #AF2575;
+  border-radius: 10px;
+}
+
+
 h1 {
   text-align: center;
   

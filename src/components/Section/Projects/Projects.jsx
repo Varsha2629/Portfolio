@@ -6,7 +6,7 @@ const Projects = ({dataBase}) => {
     return (
         <div id="projects">
             <h1>Projects</h1>
-            <p>Collection of some of my work</p>
+            <p>Here are a few projects I've worked on recently.</p>
             <div className="subProject">
                 {dataBase.projects.map((project) => (
                 <div className="projectContent">          
