@@ -1,24 +1,61 @@
-.card{
+.card {
   display: flex;
   justify-content: space-evenly;
-  margin: 2% 10%;
+  margin: 2% 28%;
+  width: 45.33%;
+  flex-wrap: wrap;
 
-  img {
-    width: 80px;
-    box-shadow: 0 0 15px 0px #af2574;
-    
+
+  .skill-img {
+    box-shadow: 0 2px 7px 3px #af2574;
+    padding: 10px;
+    margin: 20px 10px;
+    img {
+      width: 80px;
+    }
+
   }
-  p{
+
+  .skill-img:hover {
+    transform: scale(1.2);
+  }
+
+  p {
     display: none;
-  }
-  img:hover {
-    display: inline;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    text-align: center;
+    border-width: 5px;
+    margin-left: -31px;
+    background-color: #AF2575;
+    padding: 5px 0;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #AF2575 transparent transparent transparent;
   }
 }
-.certifications {
- 
-  .certified {
-    display: flex;
-    justify-content: center;
+
+img:hover+p {
+  display: block;
+}
+
+
+.service {
+
+  .service-container {
+    width: 40%;
+    background: #118ba9;
+    color: #ffffff;
+    border-radius: 0 0 16px 16px;
+    margin-left: 12%;
+    .service__head {
+      color: #ffffff;
+      text-align: center;
+      background: #AF2575;
+      border-radius: 0 0 1rem 1rem;
+      padding-top: 0.5%;
+    }
+
   }
 }
