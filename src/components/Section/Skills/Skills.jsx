@@ -57,57 +57,117 @@ const Skills = () => {
       <div className="service">
         <h1>Work Experience</h1>
         <p>What I offer</p>
-        <div className="service-container">
-        <div className="service__head">
-          <h3>Shreesoftic</h3>
-          <small class="services__item-desc">FullStack Developer</small>
-        </div>
-        <ul className="service_list">
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Develop an intuitive user interface for the users.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Work on the integration of the demand chain system.</p>
-          </li>
-
-           <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Use of HTML5, jQuery, and CSS for the development of Views/Front End for the legacy MVC application.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Apply Server-side validations in MVC Models using Data Annotations.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p> Perform code reviews of fellow developers.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Used Git for version control.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Upgrade and develop new Stored Procedures as per the requirement</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Enhance the system modules and functionality.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Consumed the API and worked on ReactJS-based UI.</p>
-          </li>
-          <li>
-            <div class="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" /></div>
-            <p>Collaborated with QA on deployment to different environments, and bug fixes.</p>
-          </li>
-        </ul>
+        <div className="service-containers">
+       
+          <div className="service-container">
+          <div className="service__head">
+            <h3>Shreesoftic</h3>
+            <small class="services__item-desc">FullStack Developer</small>
+          </div>
+          <div className="service_list">
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Develop an intuitive user interface for the users.</p>
+              </div>
+            
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Work on the integration of the demand chain system.</p>
+              </div>
           
-        </div>       
 
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Use of HTML5, jQuery, and CSS for the development of Views/Front End for the legacy MVC application.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Apply Server-side validations in MVC Models using Data Annotations.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p> Perform code reviews of fellow developers.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Used Git for version control.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Upgrade and develop new Stored Procedures as per the requirement</p>
+              </div>
+           
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Enhance the system modules and functionality.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Consumed the API and worked on ReactJS-based UI.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Collaborated with QA on deployment to different environments, and bug fixes.</p>
+              </div>
+          
+          </div>
+          
+          </div>       
+
+          <div className="service-container">
+          <div className="service__head">
+            <h3>Shreesoftic</h3>
+            <small class="services__item-desc">FullStack Developer</small>
+          </div>
+          <div className="service_list">
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Develop an intuitive user interface for the users.</p>
+              </div>
+            
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Work on the integration of the demand chain system.</p>
+              </div>
+          
+
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Use of HTML5, jQuery, and CSS for the development of Views/Front End for the legacy MVC application.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Apply Server-side validations in MVC Models using Data Annotations.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p> Perform code reviews of fellow developers.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Used Git for version control.</p>
+              </div>
+          
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Upgrade and develop new Stored Procedures as per the requirement</p>
+              </div>
+           
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Enhance the system modules and functionality.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Consumed the API and worked on ReactJS-based UI.</p>
+              </div>
+            
+              <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
+                <p>Collaborated with QA on deployment to different environments, and bug fixes.</p>
+              </div>
+          
+          </div>
+          
+          </div>       
+
+       </div>
       </div>
     </div>
   );

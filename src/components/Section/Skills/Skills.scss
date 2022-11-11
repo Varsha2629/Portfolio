@@ -42,13 +42,15 @@ img:hover+p {
 
 
 .service {
+.service-containers{
+    display: flex;
 
   .service-container {
     width: 40%;
     background: #118ba9;
     color: #ffffff;
     border-radius: 0 0 16px 16px;
-    margin-left: 12%;
+    margin-left: 6.5%;
     .service__head {
       color: #ffffff;
       text-align: center;
@@ -56,6 +58,17 @@ img:hover+p {
       border-radius: 0 0 1rem 1rem;
       padding-top: 0.5%;
     }
+    .service_list {
+
+      .service__list-icon {
+        display: flex;
+
+      }
+      
+    }
 
   }
+
+}
+  
 }
