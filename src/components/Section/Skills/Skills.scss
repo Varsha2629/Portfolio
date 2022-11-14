@@ -42,9 +42,12 @@ img:hover+p {
 
 
 .service {
+  p{
+    text-align: center;
+  }
 .service-containers{
     display: flex;
-
+    margin-top: 25px;
   .service-container {
     width: 40%;
     background: #118ba9;
@@ -59,10 +62,15 @@ img:hover+p {
       padding-top: 0.5%;
     }
     .service_list {
-
+      padding: 25px;
       .service__list-icon {
         display: flex;
-
+        gap: 7px;
+        margin-bottom: 14px;
+        .description {          
+         
+          text-align: left;
+        }
       }
       
     }
