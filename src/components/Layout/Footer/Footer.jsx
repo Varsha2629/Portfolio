@@ -3,16 +3,19 @@ import "./Footer.scss";
 
 const Footer = () => {
   
-    const [isVisable, setIsVisible] = useState(false)
+    const [backToTopArrow, setbackToTopArrow] = useState(false)
     
-    const toggleVisibility = () => {
-      if(window.pageXOffset < 50) {
-        setIsVisible(false);
-      } else {
-        setIsVisible(true);
-      }
-    };
 
+    useEffect(() => {
+      window.addEventListener('scroll', () => {
+        if(window.scrollY > 100) {
+          setbackToTopArrow(true);
+        } else {
+          setbackToTopArrow(false);
+        }
+      })
+    }, [])
+     
     const scrollTop = () => {
       window.scrollTo({
         top: 0,
@@ -20,24 +23,18 @@ const Footer = () => {
       });
     };
 
-    useEffect(() => {
-      window.addEventListener('scroll', toggleVisibility);
-        
-      return () => {
-        window.removeEventListener('scroll', toggleVisibility);
-      }
-    }, [])
-  
-
   
   return (
     <div className="footer">
       <div className="footer-text">
         <p>&copy; 2♥22 Varsha Panchal. All Rights Reserved.</p>
-        <div className="arrow-up">          
+        <div className="arrow-up">
+
+      {backToTopArrow && (
           <div onClick={scrollTop}>
             <img src="/img/svg/caret-circle-up.svg" alt="arrow" />
           </div>
+          )}  
         </div>
       </div>
     </div>
