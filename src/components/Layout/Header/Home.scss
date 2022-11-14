@@ -18,7 +18,7 @@
         width: 40%;
         padding: 20px;
         color: white;
-        background-color: rgb(16 126 146 / 51%);
+        // background-color: rgb(16 126 146 / 51%);
         box-shadow: inset #af2574 2px 0px 20px 2px;
         z-index: 2;
         text-align: center;
@@ -35,6 +35,9 @@
         .connect a {
             text-decoration: none;
             color: white;
+            background-color: #118ba9;
+            padding: 7px;
+            border-radius: 15px;
         }
     }
 

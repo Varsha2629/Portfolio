@@ -12,9 +12,9 @@ const Home = () => {
         
       </div>    
       <div className="text-zone">
-        <h2>Hello, my name is</h2>
+        <h3>Hello, my name is</h3>
         
-        <h1>Varsha Panchal</h1>
+        <h2>Varsha Panchal</h2>
         <div className="title">
           <div className="title-wrapper">
             <div className="title-item">Full-stack Developer</div>
