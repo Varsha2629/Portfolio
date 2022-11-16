@@ -39,8 +39,6 @@
 img:hover+p {
   display: block;
 }
-
-
 .service {
   p{
     text-align: center;
@@ -54,6 +52,7 @@ img:hover+p {
     color: #ffffff;
     border-radius: 0 0 16px 16px;
     margin-left: 6.5%;
+    border: 1px solid #AF2575;
     .service__head {
       color: #ffffff;
       text-align: center;
@@ -79,4 +78,24 @@ img:hover+p {
 
 }
   
+}
+
+@media screen and (max-width: 1024px) {
+  .service-containers {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .service {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-containers {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+
 }
