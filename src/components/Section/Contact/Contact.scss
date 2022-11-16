@@ -1,6 +1,8 @@
 #contact {
   position: relative;
-  background: linear-gradient(177deg, rgb(140, 30, 95) 0, rgb(255, 255, 255) 88%);
+  p{
+    text-align: center;
+  }
   .connection {
     display: flex;
     text-align: center;
