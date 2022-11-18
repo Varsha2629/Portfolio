@@ -16,6 +16,12 @@
   box-shadow: 0 4px 5px 3px #af2574;
   margin-left: 41px;
   padding: 20px;
+  .img-div {
+    .project-image{
+      width: 300px;
+      height: 200px;
+    }
+  }
 
 }
 .project-card:hover{

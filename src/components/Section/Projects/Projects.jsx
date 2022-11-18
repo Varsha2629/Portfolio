@@ -11,6 +11,7 @@ const Projects = ({dataBase}) => {
                 {dataBase.projects.map((project) => (
                 <div className="projectContent">          
                     <Project key={project.id} project={project} />
+                
                 </div>
                 ))}
             </div>
