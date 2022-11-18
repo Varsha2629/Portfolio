@@ -15,9 +15,14 @@ const Project = ({ project }) => {
 
         <div class="overlay">
           <div class="project-card-text">
-          Scheduler is a single-page, React application. This user friendly app allows you to create, edit or delete interimg. The database is managed by a separate API and requests are handled through Axios. The project comes with a testing suite utilising Jest and Cypress.
+            {project.des}
           </div>
-          <h5>NodeJs, Express, CSS, Git</h5>
+          <span>NodeJs, Express, CSS, Git</span>
+          <button className="card-btn">
+            <a href="">Code</a>
+          </button> <button className="card-btn">
+            <a href="">Live</a>
+          </button>
         </div>
       </div>
     </div>
