@@ -5,7 +5,7 @@ const dataBase = {
       img: 'img/Project/TinyApp.png',
       title: 'TinnyApp',
       des: "Scheduler is a single-page, React application. This user friendly app allows you to create, edit or delete interimg. The database is managed by a separate API and requests are handled through Axios. The project comes with a testing suite utilising Jest and Cypress.",
-      skills:"NodeJs"
+      skills:"NodeJS, "
 
     },
     { 

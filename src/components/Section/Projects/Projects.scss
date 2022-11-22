@@ -5,7 +5,7 @@
     }
 }
 
-.project-card {
+#project-card {
   word-wrap: break-word;
   background-clip: border-box;
   border: 1px solid #AF2575;
@@ -18,15 +18,24 @@
   padding: 20px;
   .img-div {
     .project-image{
-      width: 300px;
-      height: 200px;
+      width: 100%;
+      
+    }
+    .project-image:hover{
+      transform: scale(1.04);
     }
   }
 
+.project-card-header {
+  a{
+    text-decoration: none;
+    color: #AF2575;
+  }
+
 }
-.project-card:hover{
-  transform: scale(1.04);
+
 }
+
 .projectsViewAll {
   width: 100%;
   padding: 32px;
