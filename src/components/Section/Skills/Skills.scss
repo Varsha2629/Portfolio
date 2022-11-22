@@ -3,29 +3,34 @@
     text-align: center;
   }
 
-
   .card {
     display: flex;
-    justify-content: space-evenly;
-    margin: 2% 28%;
-    width: 45.33%;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 9%;
     flex-wrap: wrap;
 
 
     .skill-img {
-      box-shadow: 0 2px 7px 3px #af2574;
-      padding: 10px;
-      margin: 20px 10px;
-
+      box-shadow: 0 2px 15px 2px #af2574;
+      padding: 10px 50px;
+      border-radius: 10px;
+      margin: 20px 17px;
+      .img-text {        
+        
       img {
-        width: 80px;
+        width: 55px;
+        height: 77px;
+      }
+      img:hover {
+        transform: scale(1.08);
+      }
       }
 
-    }
+      
 
-    .skill-img:hover {
-      transform: scale(1.2);
     }
+  
 
     p {
       display: none;

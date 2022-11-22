@@ -4,58 +4,78 @@ import './Skills.scss'
 const Skills = () => {
   return (
     <div id="skills">
-      <h1>Skills</h1>
+      <h1 className="title">Skills</h1>
       <p>What I do</p>
         <div className="card">
 
           <div className="skill-img">
+            <div className="img-text">                
             <img src="img/svg/JavaScript.svg" alt="javascript" />
             <p>JavaScript</p>
+            </div>
           </div>            
           <div className="skill-img">  
+          <div className="img-text">
             <img src="img/svg/React.svg" alt="react" />
             <p>React</p>
+            </div>
           </div>
-          <div className="skill-img">  
+          <div className="skill-img">
+          <div className="img-text">
             <img src="img/svg/HTML5.svg" alt="html" />
             <p>HTML5</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/CSS3.svg" alt="css" />
             <p>CSS3</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/Github.svg" alt="github" />
             <p>GitHub</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/NodeExpress.svg" alt="node" />
             <p>NodeJs</p>
+            </div>
           </div>
 
           
           <div className="skill-img">  
+          <div className="img-text">
             <img src="img/svg/HTML5.svg" alt="html" />
             <p>HTML5</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/CSS3.svg" alt="css" />
             <p>CSS3</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/Github.svg" alt="github" />
             <p>GitHub</p>
+            </div>
           </div>
           <div className="skill-img"> 
+          <div className="img-text">
             <img src="img/svg/NodeExpress.svg" alt="node" />
             <p>NodeJs</p>
+            </div>
           </div>
         
         </div>
 
       <div className="service">
         <h1>Work Experience</h1>
-        <p>What I offer</p>
+        <p>What I can do</p>
         <div className="service-containers">
        
           <div className="service-container">
