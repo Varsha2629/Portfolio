@@ -3,12 +3,17 @@
 .about-test {
   display: flex;
   align-items: center;
-  width: auto;
+  width: 90%;
   padding: 0px 60px;
+
+  div .description{
+    padding-right: 10%;
+    justify-content: center;
+    margin-left: 25%;
+    text-align: center;
+  }
  
 }
-
-.profile-image 
 
 img{
   box-shadow: 0 0 20px 0px #48b6d1;
