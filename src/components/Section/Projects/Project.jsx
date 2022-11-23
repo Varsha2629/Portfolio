@@ -6,12 +6,18 @@ const Project = ({ project }) => {
   return (
     <div id="project-card">
       <div class="img-div">
-        <img className="project-image" variant="top" src={project.img} alt="card-img" />
+        <a href={project.link} target="_blank">
+          <img className="project-image" variant="top" src={project.img} alt="card-img" />
+        </a>
       </div>
       <div className="card-body">
         <div className="project-card-header">
-          <h3 className="title"><a href="#">{project.title}
-          <i class="feather-arrow-up-right" ></i>
+          <h3 className="title">
+          
+          <a href={project.link} target="_blank">{project.title}
+            <div className="right-arrow-up">
+              <img src="/img/svg/arrow-up.svg" alt="arrow"/>
+            </div>
           </a>
           </h3>
         </div>

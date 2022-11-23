@@ -6,14 +6,13 @@
 }
 
 #project-card {
-  word-wrap: break-word;
+ 
   background-clip: border-box;
-  border: 1px solid #AF2575;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   height: 100%;
-  box-shadow: 0 4px 5px 3px #af2574;
+  box-shadow: 0px 0px 0px #af2577, -4px 5px 10px #af2577;
   margin-left: 41px;
   padding: 20px;
   .img-div {
@@ -27,9 +26,15 @@
   }
 
 .project-card-header {
+
   a{
+    display: flex;
     text-decoration: none;
     color: #AF2575;
+  }
+  .right-arrow-up {
+    width: 11px;
+    margin-left: 6px;
   }
 
 }
