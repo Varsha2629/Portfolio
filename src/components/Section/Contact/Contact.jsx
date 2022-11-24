@@ -16,8 +16,7 @@ const Contact = () => {
           width="100%"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
-          class="svgcolor-light"
-        >
+          class="svgcolor-light">
           <path d="M0 0 L50 100 L100 0 Z" fill="#AF2574" stroke="#AF2574"></path>
         </svg>
         <div>
@@ -34,14 +33,13 @@ const Contact = () => {
               viewBox="0 0 24 24"
               height="3em"
               width="3em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              ></path>
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+              </path>
             </svg>
             <p>varsha3051@gmail.com</p>
           </div>

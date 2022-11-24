@@ -2,6 +2,7 @@
   position: relative;
   p{
     text-align: center;
+    color: #118ba9;
   }
   .connection {
     display: flex;
@@ -17,7 +18,9 @@
   .footer__socials {
     text-align: center;
     margin: 25px 25px;
-
+    h3{
+      color: #AF2575;
+    }
 
     .social_icons {
       display: flex;
@@ -41,9 +44,7 @@
           color: #AF2574;
         }
 
-        .icon:nth-child(1):hover .icon {
-          background: #0A66C2;
-        }
+      
 
       }
     }
