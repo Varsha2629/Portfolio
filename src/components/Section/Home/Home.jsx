@@ -1,11 +1,9 @@
 import React from 'react';
 import './Home.scss';
-import Nav from './Nav';
 
 const Home = () => {
   return (
     <div id="home">
-      <Nav />
       <div className="home-page">
         <div className="coverImage">
           <img

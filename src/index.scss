@@ -12,6 +12,22 @@ body {
   position: relative;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #af2575;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #af2575;
+  margin-top: 15px;
+}
+
 @media only screen and (max-width: 960px) {
   html {
     font-size: 12px;
