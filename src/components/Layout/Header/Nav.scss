@@ -1,15 +1,15 @@
 .main {
   align-items: center;
-  
+
   .navbar {
     display: flex;
-    background: hsla(0, 0%, 100%, .5);    
+    background: hsla(0, 0%, 100%, 0.5);
     position: fixed;
     width: 100%;
     justify-content: space-between;
-    background-color: #AF2574;
+    background-color: #af2574;
     z-index: 1;
-    
+
     .rightSide {
       margin-left: 12%;
       margin-top: 4px;
@@ -18,7 +18,6 @@
     .logo img {
       height: 38px;
       border-radius: 60%;
-
     }
 
     .leftSide {
@@ -35,10 +34,8 @@
       color: white;
     }
 
-    .text:active{
-      border-bottom: 0.2em solid #933F6A;
+    .text:active {
+      border-bottom: 0.2em solid #933f6a;
     }
   }
-
-
 }
