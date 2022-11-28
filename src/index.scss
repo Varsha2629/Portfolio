@@ -1,8 +1,9 @@
+@import '../variables';
+
 * {
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-
   font-family: 'Cabin', sans-serif;
 }
 
@@ -17,29 +18,76 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #af2575;
+  background: $primaryBg;
   border-radius: 10px;
 }
 
 h1 {
   font-size: 60px;
   text-align: center;
-  color: #af2575;
+  color: $primaryBg;
   margin-top: 15px;
 }
 
-@media only screen and (max-width: 960px) {
-  html {
-    font-size: 12px;
-  }
+// ==================== Reset Styles ====================
+ul,
+li {
+  list-style-type: none;
+}
 
-  .layout {
-    flex-direction: column;
+a {
+  text-decoration: none;
+  color: unset;
+  // transition: all ease-in-out $transition;
+}
+
+p {
+  // color: $color-secondary-text;
+  margin-bottom: 50px;
+}
+
+// ==================== Global Styles ====================
+.s1 {
+  background: $primaryBg;
+}
+
+.s2 {
+  background: $secondaryBg;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.wrapper {
+  padding: 0 2rem;
+}
+
+@media screen and (min-width: 540px) {
+  body {
+    font-size: 18px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 50px;
   }
 }
 
-@media only screen and (max-width: 320px) {
-  html {
-    font-size: 10px;
-  }
-}
+// @media only screen and (max-width: 960px) {
+//   html {
+//     font-size: 12px;
+//   }
+
+//   .layout {
+//     flex-direction: column;
+//   }
+// }
+
+// @media only screen and (max-width: 320px) {
+//   html {
+//     font-size: 10px;
+//   }
+// }
