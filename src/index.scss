@@ -21,13 +21,6 @@ body {
   border-radius: 10px;
 }
 
-h1 {
-  font-size: 60px;
-  text-align: center;
-  color: $primaryBg;
-  margin-top: 1rem;
-}
-
 // ==================== Reset Styles ====================
 ul,
 li {
@@ -62,6 +55,13 @@ p {
 
 .wrapper {
   padding: 0 2rem;
+}
+
+.heading {
+  font-size: 3.75rem;
+  text-align: center;
+  color: $primaryBg;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 540px) {
