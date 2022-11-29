@@ -77,7 +77,7 @@ const Skills = () => {
           <div className="service-container">
             <div className="service__head">
               <h3>Shreesoftic</h3>
-              <small class="services__item-desc">FullStack Developer</small>
+              <small className="services__item-desc">FullStack Developer</small>
             </div>
             <div className="service_list">
               <div className="service__list-icon">
@@ -158,7 +158,7 @@ const Skills = () => {
           <div className="service-container">
             <div className="service__head">
               <h3>Creative Werk Designs</h3>
-              <small class="services__item-desc">FrontEnd Developer</small>
+              <small className="services__item-desc">FrontEnd Developer</small>
             </div>
             <div className="service_list">
               <div className="service__list-icon">

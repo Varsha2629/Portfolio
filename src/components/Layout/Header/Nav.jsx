@@ -50,12 +50,12 @@ const Nav = () => {
             ))}
           </ul>
           <div
-            class="navbar__hamburger"
+            className="navbar__hamburger"
             onClick={() => setShowMobileMenu(!showMobileMenu)}
           >
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
           </div>
         </nav>
       </div>

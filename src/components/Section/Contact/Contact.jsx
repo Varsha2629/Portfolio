@@ -15,7 +15,7 @@ const Contact = () => {
           width="100%"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
-          class="svgcolor-light"
+          className="svgcolor-light"
         >
           <path
             d="M0 0 L50 100 L100 0 Z"
@@ -33,16 +33,16 @@ const Contact = () => {
             <svg
               stroke="#AF2574"
               fill="#E0C0D1"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 24 24"
               height="3em"
               width="3em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               ></path>
             </svg>
@@ -53,9 +53,9 @@ const Contact = () => {
             <svg
               stroke="#AF2574"
               fill="#AF2574"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 384 512"
-              class="sc-clIAKW fPKUNl"
+              className="sc-clIAKW fPKUNl"
               height="3em"
               width="3em"
               xmlns="http://www.w3.org/2000/svg"

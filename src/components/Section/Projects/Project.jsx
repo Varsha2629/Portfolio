@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Project = ({ project }) => {
-  console.log('Hi', project);
   return (
     <div id="project-card">
-      <div class="img-div">
+      <div className="img-div">
         <a href={project.link} target="_blank" rel="noreferrer">
           <img
             className="project-image"
