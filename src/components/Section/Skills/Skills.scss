@@ -13,7 +13,7 @@
     gap: 2rem;
 
     .skill-img {
-      box-shadow: 10px 10px 14px -19px #af2574, -6px -6px 10px $primaryBg;
+      box-shadow: 10px 10px 14px -19px $primaryBg, -6px -6px 10px $primaryBg;
       padding: 10px 50px;
       border-radius: 10px;
       .img-text {
@@ -54,7 +54,7 @@
     .service-containers {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      place-items: center;
+      justify-items: center;
       gap: 2rem;
 
       .service-container {
@@ -62,7 +62,6 @@
         background: $accentColor;
         color: #ffffff;
         border-radius: 0 0 16px 16px;
-        margin-left: 6.5%;
         border: 1px solid $primaryBg;
 
         .service__head {
