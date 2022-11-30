@@ -81,7 +81,7 @@ const Skills = () => {
             <p>What I can do</p>
             <div className="service-containers">
               {services.map(({ company, role, serviceList }) => (
-                <div className="service-container">
+                <div key={company} className="service-container">
                   <div className="service__head">
                     <h3>{company}</h3>
                     <small className="services__item-desc">{role}</small>

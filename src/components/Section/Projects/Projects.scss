@@ -1,8 +1,9 @@
-#projects {
-  padding-top: 25px;
+@import '../../../../variables';
+
+.projects {
   p {
     text-align: center;
-    color: #118ba9;
+    color: $accentColor;
     font-size: medium;
   }
 }
@@ -12,9 +13,9 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  box-shadow: 0px 0px 0px #af2577, -4px 5px 10px #af2577;
-  margin-left: 41px;
+  align-items: center;
+  max-width: 20rem;
+  box-shadow: 0px 0px 0px $primaryBg, -4px 5px 10px $primaryBg;
   padding: 20px;
   .img-div {
     .project-image {
@@ -28,8 +29,9 @@
   .project-card-header {
     a {
       display: flex;
+      align-items: center;
       text-decoration: none;
-      color: #af2575;
+      color: $primaryBg;
     }
     .right-arrow-up {
       width: 11px;
@@ -65,7 +67,7 @@
     cursor: pointer;
     color: #eaeaea;
     transition: color 0.2s;
-    background-color: #af2574;
+    background-color: $primaryBg;
   }
   .js16 {
     color: #eaeaea;
@@ -76,10 +78,12 @@
     margin-right: 5px;
     transition: background-color 0.2s;
     border-radius: 50%;
-    background-color: #118ba9;
+    background-color: $accentColor;
   }
 }
 .subProject {
   display: flex;
-  margin: 20px 107px 0px 95px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }

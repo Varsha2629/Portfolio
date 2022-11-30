@@ -15,14 +15,12 @@ const Project = ({ project }) => {
       </div>
       <div className="card-body">
         <div className="project-card-header">
-          <h3 className="title">
-            <a href={project.link} target="_blank" rel="noreferrer">
-              {project.title}
-              <div className="right-arrow-up">
-                <img src="/img/svg/arrow-up.svg" alt="arrow" />
-              </div>
-            </a>
-          </h3>
+          <a href={project.link} target="_blank" rel="noreferrer">
+            <h3>{project.title}</h3>
+            <div className="right-arrow-up">
+              <img src="/img/svg/arrow-up.svg" alt="arrow" />
+            </div>
+          </a>
         </div>
       </div>
     </div>
