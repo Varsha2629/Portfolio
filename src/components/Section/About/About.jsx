@@ -8,7 +8,7 @@ const About = () => {
                 <div>
                     <p className="description">
                        
-                            I am a detail-oriented Front-End developer with a passionate about what i'm doing and see every task as a challenge and an opportunity to get better. My diverse background in computer science and investing allows me to excel at logical thinking and creative problem-solving, allowing development to be the perfect field for my skill set. I love dry, responsive, accessible code and bring experience developing applications in Javascript, React, jQuery, CSS/SCSS, and HTML.
+                    I am a Web Developer adept in front-end and back-end solutions. I've worked with and have become proficient in an assortment of technologies including Javascript, React, HTML/CSS, SQL and more. I am also able to effectively self-manage during independent work as well as collaborate on projects and lead teams to complete tasks.
                      
                     </p> 
                 </div>

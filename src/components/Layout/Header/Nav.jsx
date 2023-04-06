@@ -1,4 +1,5 @@
 import React from "react";
+import LinkBar from "./LinkBar";
 import './Nav.scss';
 
 const Nav = () => {
@@ -17,6 +18,8 @@ const Nav = () => {
          </div>     
         
       </nav>
+
+      <LinkBar />
    </div>
  )
 
