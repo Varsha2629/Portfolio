@@ -12,7 +12,7 @@ const LinkBar = (props) => {
           <ul className="linkButtons">
             <li onClick={(e) => {
               props.setLinkClick(false)
-            }}><a className="clickOff"><i className="fa-solid fa-angles-right"></i></a></li>
+            }}><a className="clickOff" href="/#"><i className="fa-solid fa-angles-right"></i></a></li>
             <li><a href="mailto:varsha3051@gmail.com" ref=""><i className="fa-solid fa-square-envelope"></i></a></li>
             <li><a href="/"><i className="fa-brands fa-linkedin"></i></a></li>
             <li><a href="/"><i className="fa-brands fa-github-square"></i></a></li>
@@ -24,7 +24,7 @@ const LinkBar = (props) => {
         <div className="arrowButton" onClick={(e) => {
           props.setLinkClick(true)
         }}>
-          <a className="click">
+          <a className="click" href="/#">
             <i className="fa-solid fa-angles-left"></i>
           </a>
         </div>
