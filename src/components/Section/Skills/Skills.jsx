@@ -80,13 +80,14 @@ const Skills = () => {
        
           <div className="service-container">
           <div className="service__head">
-            <h3>Shreesoftic</h3>
+            <h3>FDM Group</h3>
             <small class="services__item-desc">FullStack Developer</small>
           </div>
           <div className="service_list">
             
               <div className="service__list-icon"><img src="img/svg/checkarrow.svg" alt="checkarrow" />
-                <p className="description">Develop an intuitive user interface for the users.</p>
+                <p className="description">Front-End Development:</p>
+                
               </div>
             
             

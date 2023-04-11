@@ -26,8 +26,8 @@ const Contact = () => {
         
         <div className="connection">
           <div className="email">
-            <svg
-              stroke="#AF2574"
+            <a href="mailto:varsha3051@gmail.com">
+              <svg stroke="#AF2574"
               fill="#E0C0D1"
               stroke-width="0"
               viewBox="0 0 24 24"
@@ -41,7 +41,7 @@ const Contact = () => {
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
               </path>
             </svg>
-            <p>varsha3051@gmail.com</p>
+            <p>varsha3051@gmail.com</p></a>
           </div>
 
           <div className="resume">
